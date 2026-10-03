@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HomePrint | Print From Home</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="navbar">
+
+    <div class="logo">
+      Home<span>Print</span>
+    </div>
+
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#order">Print Now</a>
+      <a href="#track">Track</a>
+
+      <button
+        class="nav-button"
+        onclick="showOperator()">
+        Operator
+      </button>
+    </nav>
+
+  </header>
+
+
+  <!-- ================= CUSTOMER WEBSITE ================= -->
+
+  <main id="customerPage">
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <div class="badge">
+          ● Local online printing
+        </div>
+
+        <h1>
+          Print from your phone.
+          <span>We take care of the rest.</span>
+        </h1>
+
+        <p>
+          Upload your documents, choose your printing
+          requirements and receive your documents at home
+          or collect them locally.
+        </p>
+
+        <div class="hero-buttons">
+
+          <button
+            class="primary-btn"
+            onclick="scrollToOrder()">
+
+            Start Printing →
+
+          </button>
+
+          <button
+            class="secondary-btn"
+            onclick="scrollToHow()">
+
+            How it works
+
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-preview">
+
+        <div class="preview-header">
+
+          <strong>Quick Print</strong>
+
+          <span class="online">
+            ● Online
+          </span>
+
+        </div>
+
+
+        <div class="upload-preview">
+
+          <div class="upload-icon">
+            📄
+          </div>
+
+          <h3>
+            Upload your document
+          </h3>
+
+          <p>
+            PDF, JPG, PNG or DOCX
+          </p>
+
+          <button
+            class="primary-btn"
+            onclick="scrollToOrder()">
+
+            Upload & Print
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section
+      class="section"
+      id="services">
+
+      <div class="section-title">
+
+        <h2>
+          Everything you need
+        </h2>
+
+        <p>
+          Simple document services for students,
+          families and local businesses.
+        </p>
+
+      </div>
+
+
+      <div class="services-grid">
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            🖨️
+          </div>
+
+          <h3>
+            B&W Printing
+          </h3>
+
+          <p>
+            Affordable black and white printing
+            for everyday documents.
+          </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            🎨
+          </div>
+
+          <h3>
+            Colour Printing
+          </h3>
+
+          <p>
+            High-quality colour printing for
+            important documents.
+          </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            🛡️
+          </div>
+
+          <h3>
+            Lamination
+          </h3>
+
+          <p>
+            Protect certificates, ID cards and
+            important documents.
+          </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+          <div class="service-icon">
+            🚚
+          </div>
+
+          <h3>
+            Local Delivery
+          </h3>
+
+          <p>
+            Get your completed documents
+            delivered locally.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+
+    <section
+      class="section"
+      id="how">
+
+      <div class="section-title">
+
+        <h2>
+          How it works
+        </h2>
+
+        <p>
+          No queues. No USB drives.
+          No complicated process.
+        </p>
+
+      </div>
+
+
+      <div class="steps-grid">
+
+        <div class="step">
+
+          <div class="step-number">
+            1
+          </div>
+
+          <h3>
+            Upload
+          </h3>
+
+          <p>
+            Send your document from your
+            phone or computer.
+          </p>
+
+        </div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            2
+          </div>
+
+          <h3>
+            Customize
+          </h3>
+
+          <p>
+            Select colour, copies, sides
+            and lamination.
+          </p>
+
+        </div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            3
+          </div>
+
+          <h3>
+            Pay
+          </h3>
+
+          <p>
+            See your price before placing
+            the order.
+          </p>
+
+        </div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            4
+          </div>
+
+          <h3>
+            Receive
+          </h3>
+
+          <p>
+            Pick it up or get it delivered
+            locally.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= ORDER ================= -->
+
+    <section
+      class="section order-section"
+      id="order">
+
+      <div class="section-title">
+
+        <h2>
+          Place a print order
+        </h2>
+
+        <p>
+          Configure your printing requirements.
+        </p>
+
+      </div>
+
+
+      <div class="order-layout">
+
+
+        <!-- ORDER FORM -->
+
+        <div class="form-card">
+
+          <h2>
+            Your document
+          </h2>
+
+          <p class="muted">
+            Upload the file you want us to print.
+          </p>
+
+
+          <div class="form-group">
+
+            <label>
+              Document
+            </label>
+
+            <div class="file-box">
+
+              <div class="upload-icon">
+                📄
+              </div>
+
+              <input
+                type="file"
+                id="file"
+                accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"
+                onchange="fileSelected()">
+
+              <p id="fileName">
+                No file selected
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Estimated pages
+            </label>
+
+            <input
+              type="number"
+              id="pages"
+              value="5"
+              min="1"
+              oninput="calculatePrice()">
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Copies
+            </label>
+
+            <input
+              type="number"
+              id="copies"
+              value="1"
+              min="1"
+              oninput="calculatePrice()">
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Print type
+            </label>
+
+            <div class="option-grid">
+
+              <label class="option">
+
+                <input
+                  type="radio"
+                  name="printType"
+                  value="bw"
+                  checked
+                  onchange="calculatePrice()">
+
+                B&W
+                <span>
+                  ₹1/page
+                </span>
+
+              </label>
+
+
+              <label class="option">
+
+                <input
+                  type="radio"
+                  name="printType"
+                  value="color"
+                  onchange="calculatePrice()">
+
+                Colour
+                <span>
+                  ₹5/page
+                </span>
+
+              </label>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Printing side
+            </label>
+
+            <div class="option-grid">
+
+              <label class="option">
+
+                <input
+                  type="radio"
+                  name="side"
+                  value="single"
+                  checked>
+
+                Single side
+
+              </label>
+
+
+              <label class="option">
+
+                <input
+                  type="radio"
+                  name="side"
+                  value="double">
+
+                Double side
+
+              </label>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Lamination
+            </label>
+
+            <select
+              id="lamination"
+              onchange="calculatePrice()">
+
+              <option value="0">
+                No lamination
+              </option>
+
+              <option value="1">
+                1 page — ₹10
+              </option>
+
+              <option value="2">
+                2 pages — ₹20
+              </option>
+
+              <option value="5">
+                5 pages — ₹50
+              </option>
+
+              <option value="10">
+                10 pages — ₹100
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Fulfilment
+            </label>
+
+            <div class="option-grid">
+
+              <label class="option">
+
+                <input
+                  type="radio"
+                  name="fulfilment"
+                  value="pickup"
+                  checked
+                  onchange="calculatePrice()">
+
+                🏠 Pickup
+
+              </label>
+
+
+              <label class="option">
+
+                <input
+                  type="radio"
+                  name="fulfilment"
+                  value="delivery"
+                  onchange="calculatePrice()">
+
+                🚚 Delivery
+
+              </label>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Your name
+            </label>
+
+            <input
+              type="text"
+              id="customerName"
+              placeholder="Enter your name">
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label>
+              Phone number
+            </label>
+
+            <input
+              type="text"
+              id="phone"
+              placeholder="Enter phone number">
+
+          </div>
+
+
+          <button
+            class="primary-btn full-width"
+            onclick="placeOrder()">
+
+            Place Order →
+
+          </button>
+
+        </div>
+
+
+
+        <!-- PRICE -->
+
+        <aside class="price-card">
+
+          <h3>
+            Order Summary
+          </h3>
+
+
+          <div class="price-row">
+
+            <span>
+              Printing
+            </span>
+
+            <strong id="printingPrice">
+              ₹5
+            </strong>
+
+          </div>
+
+
+          <div class="price-row">
+
+            <span>
+              Lamination
+            </span>
+
+            <strong id="laminationPrice">
+              ₹0
+            </strong>
+
+          </div>
+
+
+          <div class="price-row">
+
+            <span>
+              Delivery
+            </span>
+
+            <strong id="deliveryPrice">
+              ₹0
+            </strong>
+
+          </div>
+
+
+          <div class="total-row">
+
+            <span>
+              Total
+            </span>
+
+            <strong id="totalPrice">
+              ₹5
+            </strong>
+
+          </div>
+
+
+          <p class="price-note">
+
+            Final price will be confirmed
+            before payment.
+
+          </p>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= TRACKING ================= -->
+
+    <section
+      class="section"
+      id="track">
+
+      <div class="section-title">
+
+        <h2>
+          Track your order
+        </h2>
+
+        <p>
+          Enter your order number.
+        </p>
+
+      </div>
+
+
+      <div class="tracking-card">
+
+        <div class="tracking-input">
+
+          <input
+            type="text"
+            id="trackingNumber"
+            placeholder="Example: HP1024">
+
+          <button
+            class="primary-btn"
+            onclick="trackOrder()">
+
+            Track
+
+          </button>
+
+        </div>
+
+
+        <div
+          class="tracking-result"
+          id="trackingResult">
+
+          <h3 id="trackedFile">
+            Order
+          </h3>
+
+          <div class="tracking-status">
+
+            <span id="trackedDetails">
+              Processing
+            </span>
+
+            <span
+              class="status"
+              id="trackedStatus">
+
+              PROCESSING
+
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+      <div class="footer-grid">
+
+        <div>
+
+          <div class="footer-logo">
+            Home<span>Print</span>
+          </div>
+
+          <p>
+            Simple local printing from the comfort
+            of your phone.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <h4>
+            Services
+          </h4>
+
+          <a href="#services">
+            B&W Printing
+          </a>
+
+          <a href="#services">
+            Colour Printing
+          </a>
+
+          <a href="#services">
+            Lamination
+          </a>
+
+          <a href="#services">
+            Delivery
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <h4>
+            Customer
+          </h4>
+
+          <a href="#order">
+            Print Now
+          </a>
+
+          <a href="#track">
+            Track Order
+          </a>
+
+          <a href="#how">
+            How it works
+          </a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  </main>
+
+
+
+  <!-- ================= OPERATOR ================= -->
+
+  <section
+    id="operatorPage"
+    class="operator-page">
+
+    <div class="operator-navbar">
+
+      <div class="logo">
+        Home<span>Print</span>
+      </div>
+
+      <button
+        class="nav-button"
+        onclick="showCustomer()">
+
+        ← Customer Website
+
+      </button>
+
+    </div>
+
+
+    <div class="dashboard">
+
+      <div class="dashboard-header">
+
+        <div>
+
+          <h1>
+            Good evening 👋
+          </h1>
+
+          <p>
+            Manage today's printing orders.
+          </p>
+
+        </div>
+
+        <div class="printer-ready">
+          🟢 Printer Ready
+        </div>
+
+      </div>
+
+
+      <!-- STATS -->
+
+      <div class="stats-grid">
+
+        <div class="stat-card">
+
+          <span>
+            New Orders
+          </span>
+
+          <strong id="newOrders">
+            0
+          </strong>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <span>
+            Printing
+          </span>
+
+          <strong id="printingOrders">
+            0
+          </strong>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <span>
+            Ready
+          </span>
+
+          <strong id="readyOrders">
+            0
+          </strong>
+
+        </div>
+
+
+        <div class="stat-card">
+
+          <span>
+            Today's Revenue
+          </span>
+
+          <strong id="todayRevenue">
+            ₹0
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <!-- ORDERS -->
+
+      <div class="orders-card">
+
+        <div class="orders-header">
+
+          <h2>
+            Today's Orders
+          </h2>
+
+          <span id="orderCount">
+            0 orders
+          </span>
+
+        </div>
+
+
+        <div id="ordersList">
+
+          <div class="empty-orders">
+
+            <div>
+              📭
+            </div>
+
+            <h3>
+              No orders yet
+            </h3>
+
+            <p>
+              New customer orders will appear here.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ================= SUCCESS MODAL ================= -->
+
+  <div
+    class="modal"
+    id="successModal">
+
+    <div class="modal-box">
+
+      <div class="success-icon">
+        ✅
+      </div>
+
+      <h2>
+        Order placed!
+      </h2>
+
+      <p>
+        Your printing request has been received.
+      </p>
+
+      <div
+        class="order-number"
+        id="newOrderNumber">
+
+        HP1001
+
+      </div>
+
+      <p class="muted">
+        Keep this number to track your order.
+      </p>
+
+      <button
+        class="primary-btn full-width"
+        onclick="closeModal()">
+
+        Done
+
+      </button>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
